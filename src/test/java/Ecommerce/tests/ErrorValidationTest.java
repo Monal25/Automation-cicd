@@ -23,6 +23,7 @@ public class ErrorValidationTest extends BaseTest{
 public void loginErrorValidation() throws InterruptedException, IOException {
 		// TODO Auto-generated method stub
 		//String productName1 = "IPHONE 13 PRO";
+	//System.out.println("new line");
 		 landingPage.LoginApplication("sritxyz.sen@gmail.com", "Srita@en25");
 		Assert.assertEquals("Incorrect email or password.", landingPage.getErrorMessage());
 		

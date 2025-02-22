@@ -37,6 +37,7 @@ public class DataDrivenCheckTest extends BaseTest{
 	//retryAnalyzer = ms.TestComponents.Retry.class
 public void submitOrder(HashMap<String,String> input) throws InterruptedException, IOException {
 		// TODO Auto-generated method stub
+		//System.out.println("new line");
 		 ProductCatalog productCatalogue = landingPage.LoginApplication(input.get("email"),input.get("password"));
 		
 		//List<WebElement> products =productCatalogue.getProductsList();
