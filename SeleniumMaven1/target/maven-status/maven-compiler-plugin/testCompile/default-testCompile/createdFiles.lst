@@ -1,0 +1,10 @@
+ms\data\DataReader$1.class
+ms\data\DataReader.class
+Ecommerce\tests\ErrorValidationTest.class
+Ecommerce\tests\StandAloneTest.class
+ms\TestComponents\BaseTest.class
+ms\TestComponents\Listeners.class
+Ecommerce\tests\DataDrivenCheckTest.class
+ms\TestComponents\BaseTest$1.class
+Ecommerce\tests\StandAloneTestRefractedTest.class
+ms\TestComponents\Retry.class

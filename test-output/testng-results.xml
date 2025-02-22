@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-13T20:32:16 IST" name="Suite" finished-at="2025-02-13T20:33:17 IST" duration-ms="60153">
+    <groups>
+      <group name="Purchase">
+        <method signature="DataDrivenCheckTest.submitOrder(java.util.HashMap)[pri:0, instance:Ecommerce.tests.DataDrivenCheckTest@5bda8e08]" name="submitOrder" class="Ecommerce.tests.DataDrivenCheckTest"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2025-02-13T20:32:16 IST" name="RefractedTest" finished-at="2025-02-13T20:33:17 IST" duration-ms="60153">
+      <class name="Ecommerce.tests.DataDrivenCheckTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Ecommerce.tests.DataDrivenCheckTest@5bda8e08]" started-at="2025-02-13T20:32:17 IST" name="launchApplication" finished-at="2025-02-13T20:32:20 IST" duration-ms="2889" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Ecommerce.tests.DataDrivenCheckTest@5bda8e08]" started-at="2025-02-13T20:32:20 IST" name="submitOrder" data-provider="getData" finished-at="2025-02-13T20:32:37 IST" duration-ms="17603" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Srita@sen25, product=IPHONE 13 PRO, email=srita.sen@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ecommerce.tests.DataDrivenCheckTest@5bda8e08]" started-at="2025-02-13T20:32:37 IST" name="tearDown" finished-at="2025-02-13T20:32:37 IST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Ecommerce.tests.DataDrivenCheckTest@5bda8e08]" started-at="2025-02-13T20:32:37 IST" name="launchApplication" finished-at="2025-02-13T20:32:39 IST" duration-ms="1901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Ecommerce.tests.DataDrivenCheckTest@5bda8e08]" started-at="2025-02-13T20:32:39 IST" name="submitOrder" data-provider="getData" finished-at="2025-02-13T20:32:57 IST" duration-ms="17622" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Iamking@000, product=ADIDAS ORIGINAL, email=shetty@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ecommerce.tests.DataDrivenCheckTest@5bda8e08]" started-at="2025-02-13T20:32:57 IST" name="tearDown" finished-at="2025-02-13T20:32:57 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:Ecommerce.tests.DataDrivenCheckTest@5bda8e08]" started-at="2025-02-13T20:32:57 IST" name="launchApplication" finished-at="2025-02-13T20:32:59 IST" duration-ms="1917" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:Ecommerce.tests.DataDrivenCheckTest@5bda8e08]" started-at="2025-02-13T20:32:59 IST" name="submitOrder" data-provider="getData" finished-at="2025-02-13T20:33:16 IST" duration-ms="17628" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Srita@sen25, product=ZARA COAT 3, email=srita.sen@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:Ecommerce.tests.DataDrivenCheckTest@5bda8e08]" started-at="2025-02-13T20:33:16 IST" name="tearDown" finished-at="2025-02-13T20:33:17 IST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Ecommerce.tests.DataDrivenCheckTest -->
+    </test> <!-- RefractedTest -->
+  </suite> <!-- Suite -->
+</testng-results>

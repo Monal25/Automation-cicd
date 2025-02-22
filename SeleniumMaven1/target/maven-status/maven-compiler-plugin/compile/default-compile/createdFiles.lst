@@ -1,0 +1,9 @@
+ms\SeleniumMaven\framesAssignment.class
+ms\resources\ExtentReportTestng.class
+site\pageobject\ProductCatalog.class
+site\pageobject\CheckOutPage.class
+site\pageobject\CartPage.class
+site\pageobject\OrderPage.class
+ms\abstractComponent\AbstractComponent.class
+site\pageobject\LandingPage.class
+site\pageobject\ConfirmationPage.class

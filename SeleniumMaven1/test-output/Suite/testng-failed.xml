@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="RefractedTest(failed)">
+    <classes>
+      <class name="Ecommerce.tests.StandAloneTestRefractedTest">
+        <methods>
+          <include name="submitOrder"/>
+          <include name="orderHistoryTest"/>
+          <include name="tearDown"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- Ecommerce.tests.StandAloneTestRefractedTest -->
+    </classes>
+  </test> <!-- RefractedTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
